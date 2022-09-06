@@ -13,6 +13,26 @@
 		334C30C128C6DFC700ED5FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334C30BF28C6DFC700ED5FF4 /* Main.storyboard */; };
 		334C30C328C6DFCB00ED5FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334C30C228C6DFCB00ED5FF4 /* Assets.xcassets */; };
 		334C30C628C6DFCB00ED5FF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334C30C428C6DFCB00ED5FF4 /* LaunchScreen.storyboard */; };
+		334C314C28C6E22600ED5FF4 /* God.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C310728C6E22600ED5FF4 /* God.swift */; };
+		334C315028C6E22600ED5FF4 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C310B28C6E22600ED5FF4 /* Functions.swift */; };
+		334C315128C6E22600ED5FF4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C310C28C6E22600ED5FF4 /* Extensions.swift */; };
+		334C315328C6E22600ED5FF4 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C310E28C6E22600ED5FF4 /* Cache.swift */; };
+		334C315828C6E22600ED5FF4 /* ViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C311528C6E22600ED5FF4 /* ViewFactory.swift */; };
+		334C315928C6E22600ED5FF4 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C311628C6E22600ED5FF4 /* AppColor.swift */; };
+		334C315A28C6E22600ED5FF4 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C311828C6E22600ED5FF4 /* Fonts.swift */; };
+		334C315B28C6E22600ED5FF4 /* Poppins-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 334C311A28C6E22600ED5FF4 /* Poppins-Italic.otf */; };
+		334C315C28C6E22600ED5FF4 /* Poppins-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 334C311B28C6E22600ED5FF4 /* Poppins-Bold.otf */; };
+		334C315D28C6E22600ED5FF4 /* Poppins-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 334C311C28C6E22600ED5FF4 /* Poppins-Black.otf */; };
+		334C315E28C6E22600ED5FF4 /* Poppins-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 334C311D28C6E22600ED5FF4 /* Poppins-Regular.otf */; };
+		334C315F28C6E22600ED5FF4 /* Sizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C311E28C6E22600ED5FF4 /* Sizing.swift */; };
+		334C316C28C6E29C00ED5FF4 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C316B28C6E29C00ED5FF4 /* ContainerVC.swift */; };
+		334C316F28C6E3AB00ED5FF4 /* LiftLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C316E28C6E3AB00ED5FF4 /* LiftLog.swift */; };
+		334C317128C6E76200ED5FF4 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C317028C6E76200ED5FF4 /* Protocols.swift */; };
+		334C317328C6ECB200ED5FF4 /* LogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C317228C6ECB200ED5FF4 /* LogCell.swift */; };
+		334C317528C6F88700ED5FF4 /* LogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C317428C6F88700ED5FF4 /* LogVC.swift */; };
+		334C317728C7072100ED5FF4 /* PlusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C317628C7072100ED5FF4 /* PlusCell.swift */; };
+		334C317928C7090500ED5FF4 /* SetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C317828C7090500ED5FF4 /* SetCell.swift */; };
+		815AA0D583BDB0FB63E26840 /* Pods_Iron_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B52777FB41279E7F1B3F897 /* Pods_Iron_challenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +44,28 @@
 		334C30C228C6DFCB00ED5FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		334C30C528C6DFCB00ED5FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		334C30C728C6DFCB00ED5FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334C310728C6E22600ED5FF4 /* God.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = God.swift; sourceTree = "<group>"; };
+		334C310B28C6E22600ED5FF4 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		334C310C28C6E22600ED5FF4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		334C310E28C6E22600ED5FF4 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		334C311528C6E22600ED5FF4 /* ViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewFactory.swift; sourceTree = "<group>"; };
+		334C311628C6E22600ED5FF4 /* AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		334C311828C6E22600ED5FF4 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		334C311A28C6E22600ED5FF4 /* Poppins-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.otf"; sourceTree = "<group>"; };
+		334C311B28C6E22600ED5FF4 /* Poppins-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.otf"; sourceTree = "<group>"; };
+		334C311C28C6E22600ED5FF4 /* Poppins-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.otf"; sourceTree = "<group>"; };
+		334C311D28C6E22600ED5FF4 /* Poppins-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.otf"; sourceTree = "<group>"; };
+		334C311E28C6E22600ED5FF4 /* Sizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sizing.swift; sourceTree = "<group>"; };
+		334C316B28C6E29C00ED5FF4 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		334C316E28C6E3AB00ED5FF4 /* LiftLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftLog.swift; sourceTree = "<group>"; };
+		334C317028C6E76200ED5FF4 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		334C317228C6ECB200ED5FF4 /* LogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCell.swift; sourceTree = "<group>"; };
+		334C317428C6F88700ED5FF4 /* LogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogVC.swift; sourceTree = "<group>"; };
+		334C317628C7072100ED5FF4 /* PlusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusCell.swift; sourceTree = "<group>"; };
+		334C317828C7090500ED5FF4 /* SetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCell.swift; sourceTree = "<group>"; };
+		4E94D89CDDF3E6891EDF0C2F /* Pods-Iron-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Iron-challenge.debug.xcconfig"; path = "Target Support Files/Pods-Iron-challenge/Pods-Iron-challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		6B52777FB41279E7F1B3F897 /* Pods_Iron_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Iron_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC492B09CB053FC241075430 /* Pods-Iron-challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Iron-challenge.release.xcconfig"; path = "Target Support Files/Pods-Iron-challenge/Pods-Iron-challenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +73,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815AA0D583BDB0FB63E26840 /* Pods_Iron_challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CF01676F5F5BE12F56E2A4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E94D89CDDF3E6891EDF0C2F /* Pods-Iron-challenge.debug.xcconfig */,
+				EC492B09CB053FC241075430 /* Pods-Iron-challenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		334C30AD28C6DFC600ED5FF4 = {
 			isa = PBXGroup;
 			children = (
 				334C30B828C6DFC700ED5FF4 /* Iron-challenge */,
 				334C30B728C6DFC700ED5FF4 /* Products */,
+				0CF01676F5F5BE12F56E2A4C /* Pods */,
+				A7B19933B11B6466F620435B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +110,122 @@
 		334C30B828C6DFC700ED5FF4 /* Iron-challenge */ = {
 			isa = PBXGroup;
 			children = (
+				334C316D28C6E39F00ED5FF4 /* Models */,
+				334C30D028C6E1FA00ED5FF4 /* Views */,
+				334C30CF28C6E1F500ED5FF4 /* VCS */,
+				334C30CD28C6E1BF00ED5FF4 /* Utility */,
+				334C30C728C6DFCB00ED5FF4 /* Info.plist */,
+			);
+			path = "Iron-challenge";
+			sourceTree = "<group>";
+		};
+		334C30CD28C6E1BF00ED5FF4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				334C310028C6E22600ED5FF4 /* Shared */,
+				334C30CE28C6E1C600ED5FF4 /* Internal */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		334C30CE28C6E1C600ED5FF4 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
 				334C30B928C6DFC700ED5FF4 /* AppDelegate.swift */,
 				334C30BB28C6DFC700ED5FF4 /* SceneDelegate.swift */,
 				334C30BD28C6DFC700ED5FF4 /* ViewController.swift */,
 				334C30BF28C6DFC700ED5FF4 /* Main.storyboard */,
 				334C30C228C6DFCB00ED5FF4 /* Assets.xcassets */,
 				334C30C428C6DFCB00ED5FF4 /* LaunchScreen.storyboard */,
-				334C30C728C6DFCB00ED5FF4 /* Info.plist */,
 			);
-			path = "Iron-challenge";
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		334C30CF28C6E1F500ED5FF4 /* VCS */ = {
+			isa = PBXGroup;
+			children = (
+				334C316B28C6E29C00ED5FF4 /* ContainerVC.swift */,
+				334C317428C6F88700ED5FF4 /* LogVC.swift */,
+			);
+			path = VCS;
+			sourceTree = "<group>";
+		};
+		334C30D028C6E1FA00ED5FF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				334C317228C6ECB200ED5FF4 /* LogCell.swift */,
+				334C317628C7072100ED5FF4 /* PlusCell.swift */,
+				334C317828C7090500ED5FF4 /* SetCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		334C310028C6E22600ED5FF4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				334C310428C6E22600ED5FF4 /* App */,
+				334C311428C6E22600ED5FF4 /* Styling */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		334C310428C6E22600ED5FF4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				334C317028C6E76200ED5FF4 /* Protocols.swift */,
+				334C310728C6E22600ED5FF4 /* God.swift */,
+				334C310B28C6E22600ED5FF4 /* Functions.swift */,
+				334C310C28C6E22600ED5FF4 /* Extensions.swift */,
+				334C310E28C6E22600ED5FF4 /* Cache.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		334C311428C6E22600ED5FF4 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				334C311528C6E22600ED5FF4 /* ViewFactory.swift */,
+				334C311628C6E22600ED5FF4 /* AppColor.swift */,
+				334C311728C6E22600ED5FF4 /* Fonts */,
+				334C311E28C6E22600ED5FF4 /* Sizing.swift */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
+		334C311728C6E22600ED5FF4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				334C311828C6E22600ED5FF4 /* Fonts.swift */,
+				334C311928C6E22600ED5FF4 /* poppins */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		334C311928C6E22600ED5FF4 /* poppins */ = {
+			isa = PBXGroup;
+			children = (
+				334C311A28C6E22600ED5FF4 /* Poppins-Italic.otf */,
+				334C311B28C6E22600ED5FF4 /* Poppins-Bold.otf */,
+				334C311C28C6E22600ED5FF4 /* Poppins-Black.otf */,
+				334C311D28C6E22600ED5FF4 /* Poppins-Regular.otf */,
+			);
+			path = poppins;
+			sourceTree = "<group>";
+		};
+		334C316D28C6E39F00ED5FF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				334C316E28C6E3AB00ED5FF4 /* LiftLog.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A7B19933B11B6466F620435B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B52777FB41279E7F1B3F897 /* Pods_Iron_challenge.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 334C30CA28C6DFCB00ED5FF4 /* Build configuration list for PBXNativeTarget "Iron-challenge" */;
 			buildPhases = (
+				16560010C3DE4EDF0AE115AB /* [CP] Check Pods Manifest.lock */,
 				334C30B228C6DFC700ED5FF4 /* Sources */,
 				334C30B328C6DFC700ED5FF4 /* Frameworks */,
 				334C30B428C6DFC700ED5FF4 /* Resources */,
+				52D0B8F4E2AFA715097D2778 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,20 +288,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				334C315C28C6E22600ED5FF4 /* Poppins-Bold.otf in Resources */,
+				334C315D28C6E22600ED5FF4 /* Poppins-Black.otf in Resources */,
+				334C315E28C6E22600ED5FF4 /* Poppins-Regular.otf in Resources */,
 				334C30C628C6DFCB00ED5FF4 /* LaunchScreen.storyboard in Resources */,
 				334C30C328C6DFCB00ED5FF4 /* Assets.xcassets in Resources */,
+				334C315B28C6E22600ED5FF4 /* Poppins-Italic.otf in Resources */,
 				334C30C128C6DFC700ED5FF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16560010C3DE4EDF0AE115AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Iron-challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D0B8F4E2AFA715097D2778 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Iron-challenge/Pods-Iron-challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Iron-challenge/Pods-Iron-challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Iron-challenge/Pods-Iron-challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		334C30B228C6DFC700ED5FF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				334C316F28C6E3AB00ED5FF4 /* LiftLog.swift in Sources */,
+				334C317528C6F88700ED5FF4 /* LogVC.swift in Sources */,
+				334C316C28C6E29C00ED5FF4 /* ContainerVC.swift in Sources */,
+				334C315028C6E22600ED5FF4 /* Functions.swift in Sources */,
+				334C315A28C6E22600ED5FF4 /* Fonts.swift in Sources */,
+				334C315328C6E22600ED5FF4 /* Cache.swift in Sources */,
+				334C317328C6ECB200ED5FF4 /* LogCell.swift in Sources */,
+				334C314C28C6E22600ED5FF4 /* God.swift in Sources */,
+				334C317928C7090500ED5FF4 /* SetCell.swift in Sources */,
+				334C317728C7072100ED5FF4 /* PlusCell.swift in Sources */,
+				334C315928C6E22600ED5FF4 /* AppColor.swift in Sources */,
+				334C315F28C6E22600ED5FF4 /* Sizing.swift in Sources */,
 				334C30BE28C6DFC700ED5FF4 /* ViewController.swift in Sources */,
+				334C317128C6E76200ED5FF4 /* Protocols.swift in Sources */,
+				334C315128C6E22600ED5FF4 /* Extensions.swift in Sources */,
+				334C315828C6E22600ED5FF4 /* ViewFactory.swift in Sources */,
 				334C30BA28C6DFC700ED5FF4 /* AppDelegate.swift in Sources */,
 				334C30BC28C6DFC700ED5FF4 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +506,7 @@
 		};
 		334C30CB28C6DFCB00ED5FF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E94D89CDDF3E6891EDF0C2F /* Pods-Iron-challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +535,7 @@
 		};
 		334C30CC28C6DFCB00ED5FF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC492B09CB053FC241075430 /* Pods-Iron-challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
